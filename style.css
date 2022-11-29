@@ -1,0 +1,137 @@
+.main {
+  display: grid;
+  margin: 50px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 400px;
+  box-shadow: 10px 10px 20px 20px purple;
+  box-sizing: border-box;
+}
+.im {
+  background-image: url("https://i.pinimg.com/originals/af/61/09/af61090e4c581275ee4acd1e1298c79b.jpg");
+
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+
+.login {
+  background-color: white;
+  background-size: cover;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  row-gap: 10px;
+  column-gap: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  justify-content: center;
+}
+
+.login > h4 {
+  color: #705e6c;
+  text-align: center;
+  font-family: "Georgia", serif;
+}
+
+.login > h4 {
+  color: #705e6c;
+  text-align: center;
+}
+
+.button1 {
+  height: 50px;
+  width: 250px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: white;
+  color: #705e6c;
+  box-shadow: 1px 1px 4px #cccccc;
+  border: 0px;
+  border-radius: 7px;
+}
+
+.login > h5 {
+  text-align: center;
+  color: #705e6c;
+  font-size: 10px;
+  margin-top: 3px;
+}
+.login .button1 > img {
+  heigth: 20px;
+  width: 20px;
+  display: grid;
+}
+
+.example-group {
+  position: relative;
+  display: inline-block;
+}
+
+.example-input {
+  padding: 10px;
+  border-radius: 20px;
+  display: grid;
+}
+
+.input-label {
+  background-color: white;
+  color: green;
+  font-size: 10px;
+  position: absolute;
+  left: 10px;
+  top: -7px;
+  padding: 0px;
+}
+
+a {
+  color: purple;
+}
+a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+.reg {
+  background-color: #c0b6c1;
+  justify-content: center;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #6a4849;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: none;
+}
+.login-btn {
+  background-color: #6a4849;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px;
+  font-size: 10px;
+  margin-top: 10px;
+
+  padding: none;
+}
+.check {
+  display: flex;
+  color: black;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.check > input {
+  display: block;
+  margin-top: 7px;
+  margin-right: 10px;
+  height: 15px;
+}
